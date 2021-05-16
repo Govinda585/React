@@ -21,7 +21,7 @@ function MockData() {
     <div>
       {/* <ul>
         {Object.keys(state).map((key) => (
-          <li key={key}>{state[key]</li>
+          <li key={key}>{state[key].rendered}</li>
         ))}
       </ul> */}
       {state.acf.gallary.sizes.url}
